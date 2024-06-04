@@ -1,0 +1,155 @@
+body {
+    background-color: rgb(34, 34, 34);
+    font-family: poppinsregular;
+    color: white;
+    margin: 0 auto;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+aside {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.35s all;
+}
+
+#inscreva-se-btn {
+    border: 2px solid rgb(132, 14, 201);
+     padding: 10px;
+     border-radius: 15px;
+}
+
+#inscreva-se-btn:hover {
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 45px;
+    font-family: poppinsmedium;
+}
+
+span {
+    color: rgb(132, 14, 201);
+}
+
+main p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+form p {
+    font-size: 24px;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+#texto2 {
+    margin-top: 0px;
+    height: 120px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-family: poppinsregular;
+}
+
+footer {
+    margin: 0;
+    padding: 0 0 10px 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+footer div{
+    position: relative;
+    text-align: center;
+    margin:  100px 0 0 0;
+    font-size: 13px;
+    color: rgb(196, 196, 196);
+}
+
+footer div p {
+    margin: 25px 0 0 0;
+}
+
+.teste {
+    display: flex;
+}
+
+.teste > img { 
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+        max-width: 5rem;
+        float: left;
+        top: 20px;
+        margin: -1.4% 10px;
+
+}

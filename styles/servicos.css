@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(34, 34, 34);
+    font-family: poppinsregular;
+    color: white;
+    margin: 0 auto;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.35s all;
+}
+
+#inscreva-se-btn {
+    border: 2px solid rgb(132, 14, 201);
+     padding: 10px;
+     border-radius: 15px;
+}
+
+#inscreva-se-btn:hover {
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(132, 14, 201);
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main div {
+    display: inline-block;
+    margin: 20px 30px 0px 30px;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    border: 4px solid rgb(132, 14, 201);
+    width: 33%;
+    border-radius: 50px;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+.fotorainbow {
+    height: 40px;
+}
+
+.fortnitemoves {
+    height: 45px;
+}
+
+.preco1 {
+    position: relative;
+    top: 10%;
+}
+
+.preco2 {
+    position: relative;
+    top: 10%;
+}
+
+.preco3 {
+    position: relative;
+    top: 4.7%;
+}
+
+.preco4 {
+    position: relative;
+    top: 13%;
+}
+
+.preco5 {
+    position: relative;
+    top: 5.5%;
+}
+
+.preco6 {
+    position: relative;
+    top: 29%;
+}
+
+footer {
+    margin: 0;
+    padding: 0 0 10px 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+footer div{
+    position: relative;
+    text-align: center;
+    margin:  100px 0 0 0;
+    font-size: 13px;
+    color: rgb(196, 196, 196);
+}
+
+footer div p {
+    margin: 25px 0 0 0;
+}
